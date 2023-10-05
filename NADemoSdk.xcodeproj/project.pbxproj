@@ -17,6 +17,8 @@
 		B24BE1BD2ACE979600F880D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24BE1BB2ACE979600F880D1 /* Main.storyboard */; };
 		B24BE1BF2ACE979700F880D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24BE1BE2ACE979700F880D1 /* Assets.xcassets */; };
 		B24BE1C22ACE979700F880D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24BE1C02ACE979700F880D1 /* LaunchScreen.storyboard */; };
+		B24BE1C82ACE9A1400F880D1 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BE1C72ACE9A1400F880D1 /* Calculation.swift */; };
+		B24BE1CA2ACEB3D300F880D1 /* NADemoSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BE1C92ACEB3D300F880D1 /* NADemoSdk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		B24BE1BE2ACE979700F880D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24BE1C12ACE979700F880D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B24BE1C32ACE979700F880D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24BE1C72ACE9A1400F880D1 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		B24BE1C92ACEB3D300F880D1 /* NADemoSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NADemoSdk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B24BE1982ACE967300F880D1 /* NADemoSdk.h */,
 				B24BE1992ACE967300F880D1 /* NADemoSdk.docc */,
+				B24BE1C72ACE9A1400F880D1 /* Calculation.swift */,
+				B24BE1C92ACEB3D300F880D1 /* NADemoSdk.swift */,
 			);
 			path = NADemoSdk;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24BE1CA2ACEB3D300F880D1 /* NADemoSdk.swift in Sources */,
 				B24BE19A2ACE967300F880D1 /* NADemoSdk.docc in Sources */,
+				B24BE1C82ACE9A1400F880D1 /* Calculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +501,7 @@
 		B24BE1AD2ACE967300F880D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XGL77DCDTH;
@@ -509,6 +518,7 @@
 		B24BE1AE2ACE967300F880D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XGL77DCDTH;
